@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class RewardValueTests {
 
-    private static double rate = .0035;
+    private static final double rate = .0035;
 
     @Test
     void create_with_cash_value() {
